@@ -54,6 +54,8 @@ RUN --mount=type=cache,target=/root/.gradle ./gradlew --no-daemon build -x test 
 
 ## Recommended `.dockerignore`
 
+Copy from [.dockerignore](./.dockerignore):
+
 ```text
 .git
 .gitignore

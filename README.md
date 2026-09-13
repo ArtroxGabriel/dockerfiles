@@ -4,9 +4,10 @@ A curated collection of production-grade, secure, and reusable Dockerfiles and c
 
 ## Available Templates
 
-| Technology | Template | Guide |
-| --- | --- | --- |
-| **Go** | [go/Dockerfile](./go/Dockerfile) | [go/README.md](./go/README.md) |
-| **Java** | [java/Dockerfile](./java/Dockerfile) | [java/README.md](./java/README.md) |
+| Technology | Dockerfile | Docker Compose | .dockerignore | Guide |
+| --- | --- | --- | --- | --- |
+| **Go** | [go/Dockerfile](./go/Dockerfile) | — | [go/.dockerignore](./go/.dockerignore) | [go/README.md](./go/README.md) |
+| **Java** | [java/Dockerfile](./java/Dockerfile) | — | [java/.dockerignore](./java/.dockerignore) | [java/README.md](./java/README.md) |
+| **Python** | [python/Dockerfile](./python/Dockerfile) | [python/docker-compose.yml](./python/docker-compose.yml) | [python/.dockerignore](./python/.dockerignore) | [python/README.md](./python/README.md) |
 
 ---

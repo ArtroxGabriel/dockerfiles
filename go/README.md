@@ -36,6 +36,8 @@ docker buildx build --platform linux/amd64,linux/arm64 -t my-go-app:latest .
 
 ## Recommended `.dockerignore`
 
+Copy from [.dockerignore](./.dockerignore):
+
 ```text
 .git
 .gitignore
